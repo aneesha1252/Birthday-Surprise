@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You 💝</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Music Toggle -->
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+
+    <!-- Screen 1 -->
+    <section class="screen active" id="s1">
+        <img src="assets/gift.svg" class="gift" onclick="openGift()" />
+        <p class="hint">Tap the gift baby girl ❤️🎁</p>
+    </section>
+
+    <!-- Screen 2 -->
+    <section class="screen" id="s2">
+        <h1>Happy Birthday Sweetheart 😘💕🎉</h1>
+        <p class="text">
+            I made this little surprise just for you 💕 
+        </p>
+        <p class="tiny-note">
+            *Bas bas ab jyada blush krne ki jarurat nhi 😁*
+        </p>
+        <button onclick="goTo('s3')">Next 💫</button>
+    </section>
+
+    <!-- Screen 3 -->
+<section class="screen" id="s3">
+    <h1>Some Memories 📸</h1>
+
+    <div class="photo-card">
+        <img src="assets/photo1.jpg" alt="Memory 1">
+        <p class="photo-note">Lets start with a very good photo of you (sundar lg rhi ho 😘)</p>
+    </div>
+
+    <div class="photo-card">
+        <img src="assets/photo5.jpg" alt="Memory 2">
+        <p class="photo-note">Arreyy isme to aur mast lg rhi ho 😉(aur hum bhi sundar lg rhe hain 😁)</p>
+    </div>
+
+    <div class="photo-card">
+        <img src="assets/photo3.jpg" alt="Memory 3">
+        <p class="photo-note">Mil gya jaisa dhundh rhe the buni ka photo 😄</p>
+    </div>
+
+    <div class="photo-card">
+        <img src="assets/photo2.jpg" alt="Memory 3">
+        <p class="photo-note">Bas bas ab aisi shakal banane ki jarurat nhi h 😂 </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="assets/photo4.jpg" alt="Memory 3">
+        <p class="photo-note">Ye dekho humara selfie jisme tum virtual ho 😂 (aise hi haste muskurate rhna 💖) </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="assets/photo6.jpg" alt="Memory 3">
+        <p class="photo-note">Ye kab ka h yaad to hoga hi madam ji ko (humare jawani ka photuu 😁) </p>
+    </div>
+
+    <button onclick="goTo('s4')">A special note ❤️ </button>
+</section>
+
+    <!-- Screen 4 -->
+    <section class="screen" id="s4">
+        <p class="message" id="finalMsg"></p>
+        <p class="tiny-note">
+            *Ye to sab bolte hain , chaliye thodi dil ki baat krte hain 🫠*
+        </p>
+        <button onclick="goTo('s5')">Dil ki baat ❤️</button>
+    </section>
+
+    <!-- Screen 5 -->
+    <section class="screen" id="s5">
+        <h2>Dil ki baat ❤️</h2>
+    
+        <p class="dil-text">
+            Tumse baat kaise shuru hua,<br>
+            ye to yaad nahi,
+            lekin hum khud ko lucky zaroor maante hain
+            ki tum meri zindagi mein aayi
+            aur dheere-dheere uska ek atoot hissa ban gayi ❤️
+            <br><br>
+            Hum jatate nhi hain jyada (ye bas bolne ki baat h, waqt waqt pe hum jatate to rhte hain 😁)
+            <br>lekin tum meri zindagi k liye bahut khaas ho<br>
+            Kitna bhi tension hota h, tumse baat krke sab khatm ho jata h<br>
+            Tumhari awaaj sunke bahut sukoon milta h<br>
+            Tumhari awaaj hi meditation ka kaam krta h<br>
+            Hasti ho to kaisa lgta h kya btaye<br>
+            byaan krna mushkil h kaafi<br>
+            Daatati ho wo bhi achha lgta h<br> 
+            Kayi baar to galti krke call krte hain aur pta hota h tum galti btaogi lekin wo bhi soon k achha lgta h 😅
+            <br>
+            Wo jo tana deti ho na sunn k maza hi aa jata h meri phuljhadi
+            <br><br>
+            Tum jab apni dadi, maasi, nani, mummy, papa, Harsh etc etc.. ki baat btati ho to hum alag khush hote rhte hain ki bhai ye sab baat 
+            humko bta rhi h , Hum kitne khaas honge.<br>
+            Bolti to nhi h lekin sabse BEST FRIEND to hum hi hain 😁 
+            <br><br>
+            Tum bahut achhi ho buni 😁<br>
+            Feelings to tumhare liye bahut h lekin likhne baithe h to smjh nhi aa rha ki kya kis order me likhne
+            <br>
+            Humesha haste muskurate rhna<br>
+            Koi bhi presaani mushibat ho humko btana, hum zaroor sunenge<br>
+            Mere se baat krte rhna (logically to tumhare pass balance nhi hota h , jab hum call krenge tab hi baat krogi😁)<br><br><br>
+            And once again "HAPPY BIRTHDAY BABY DARLING 😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘.. aur bahut sara kissie 😁"
+            <br><br><br>
+            With lots of love ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘.....till infinity
+        
+            <p class="tiny-note">
+            *Thoda likhne me hum kache hain lekin jo bhi likha h usse bahut jyada khaas ho tum mere liye ❤️ *
+        </p>
+        </p>
+    </section>
+
+    <audio id="bg-music" src="assets/music.mp3" loop></audio>
+
+    <script src="script.js"></script>
+    <div id="confetti-container"></div>
+</body>
+
+</html>

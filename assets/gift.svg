@@ -1,0 +1,19 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Box base (dark red) -->
+  <rect x="40" y="120" width="220" height="140" rx="18" fill="#8B1E1E"/>
+
+  <!-- Vertical ribbon (gold) -->
+  <rect x="135" y="120" width="30" height="140" fill="#FFB703"/>
+
+  <!-- Horizontal ribbon (gold) -->
+  <rect x="40" y="165" width="220" height="28" fill="#FFB703"/>
+
+  <!-- Lid (slightly lighter dark red) -->
+  <rect x="35" y="85" width="230" height="45" rx="16" fill="#A32626"/>
+
+  <!-- Bow left -->
+  <path d="M150 85 C120 35, 70 65, 115 95 Z" fill="#FFB703"/>
+
+  <!-- Bow right -->
+  <path d="M150 85 C180 35, 230 65, 185 95 Z" fill="#FFB703"/>
+</svg>
